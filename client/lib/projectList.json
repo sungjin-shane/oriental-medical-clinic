@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "FishermanWeather",
+    "desc": "This is a useful weather widget that shows forecast information. Fisherman can get current weather, and 3-hourly forecast 5 days for your location. Helpful stats, graphics for fisherman to obtain the data.",
+    "tech1": "React front-end allowing users to gain weather information from open weather API.",
+    "tech2": "It draws a fishing maps using Leaflet open-source libray with geoJSON data.",
+    "tech3": "Using Recharts, it shows real-time Weather information include precipitation, clouds, temperature, wind, and more..",
+    "url": "https://fisherman-weather.herokuapp.com/#/",
+    "git": "https://github.com/sungjin-shane/fisherman-weather-widget"
+  },
+  {
+    "id": "2",
+    "name": "SeekMentor",
+    "desc": "It is modern website using node.js, RESTful-api and postgreSQL with react framework on Express Server.",
+    "tech1": "Client was created by React with Node.js with the responsible web design concept.",
+    "tech2": "In server side, It used postgreSQL database with the Express server.",
+    "tech3": "Convenient SMS text and email send functions make sure users always know others requests",
+    "url": "https://seekmentor.herokuapp.com/",
+    "git": "https://github.com/sungjin-shane/seekMentor2"
+  },  
+  {
+    "id": "3",
+    "name": "Auckland Map",
+    "desc": " GIS application allows people to connect places. Using various Plugins, I could draw diffrent style map and particular areas named polygon.",
+    "tech1": "Frontend with HTML, CSS and JSX",
+    "tech2": "Backend with design tables, express routes and postgreSQL.",
+    "tech3": "TDD by Jest,postman and react/redux debug tools",
+    "url": "https://auckland-map.herokuapp.com/",
+    "git": "https://github.com/sungjin-shane/emotional-map-dev"
+  }
+]

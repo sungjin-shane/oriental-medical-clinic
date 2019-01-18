@@ -1,0 +1,214 @@
+[
+  {
+    "id": "1",
+    "icon": "fa fa-gitlab",
+    "catName": "Frontend",
+    "desc": "",
+    "list":[
+      {
+        "id": "1",
+        "name":"React.js"
+      },
+      {
+        "id": "2",
+        "name":"Redux"
+      },
+      {
+        "id": "3",
+        "name":"ES6"
+      },
+      {
+        "id": "4",
+        "name":"Javascript"
+      },
+      {
+        "id": "5",
+        "name":"HTML5"
+      },
+      {
+        "id": "6",
+        "name":"CSS3"
+      },
+      {
+        "id": "7",
+        "name":"Bootstrap"
+      },
+      {
+        "id": "8",
+        "name":"Webpack"
+      },
+      {
+        "id": "9",
+        "name":"Mobile-first"
+      },
+      {
+        "id": "10",
+        "name":"SPA"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "icon": "fa fa-database",
+    "catName": "Backend",
+    "desc": "",
+    "list":[
+      {
+        "id": "1",
+        "name":"Node.js"
+      },
+      {
+        "id": "2",
+        "name":"Express"
+      },
+      {
+        "id": "3",
+        "name":"RESTful-APIs"
+      },
+      {
+        "id": "4",
+        "name":"Knex"
+      },
+      {
+        "id": "5",
+        "name":"JWT"
+      },
+      {
+        "id": "6",
+        "name":"PHP"
+      },
+      {
+        "id": "7",
+        "name":"JAVA"
+      },
+      {
+        "id": "8",
+        "name":"PostgreSQL"
+      },
+      {
+        "id": "9",
+        "name":"Mysql"
+      },
+      {
+        "id": "10",
+        "name":"Oracle"
+      },
+      {
+        "id": "11",
+        "name":"Embeded SQL"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "icon": "fa fa-gears",
+    "catName": "IDE&Testing",
+    "desc": "",
+    "list":[
+      {
+        "id": "1",
+        "name":"GitHub"
+      },
+      {
+        "id": "2",
+        "name":"VScode"
+      },
+      {
+        "id": "3",
+        "name":"Postman API"
+      },
+      {
+        "id": "4",
+        "name":"Jest"
+      },
+      {
+        "id": "5",
+        "name":"TDD"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "icon": "fa fa-cloud",
+    "catName": "Infra&Platform",
+    "desc": "",
+    "list":[
+      {
+        "id": "1",
+        "name":"Heroku cloud"
+      },
+      {
+        "id": "2",
+        "name":"Ubuntu(18.04)"
+      },
+      {
+        "id": "3",
+        "name":"Linux"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "icon": "fa fa-map",
+    "catName": "Open Source JS & API",
+    "desc": "",
+    "list":[
+      {
+        "id": "1",
+        "name":"Nodemailer"
+      },
+      {
+        "id": "2",
+        "name":"Leaflet"
+      },
+      {
+        "id": "3",
+        "name":"Airfrance&KLM"
+      },
+      {
+        "id": "4",
+        "name":"Houndify"
+      },
+      {
+        "id": "5",
+        "name":"Lusha"
+      },
+      {
+        "id": "6",
+        "name":"OpenWeatherMap"
+      },
+      {
+        "id": "7",
+        "name":"Recharts"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "icon": "fa fa-tasks",
+    "catName": "General",
+    "desc": "",
+    "list":[
+      {
+        "id": "1",
+        "name":"Agile experience"
+      },
+      {
+        "id": "2",
+        "name":"Fast learner"
+      },
+      {
+        "id": "3",
+        "name":"Deadline-driven approach"
+      },
+      {
+        "id": "4",
+        "name":"Team player"
+      },
+      {
+        "id": "5",
+        "name":"Problem solving"
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+Arguments: 
+  /home/sungjin-shane/.nvm/versions/node/v9.11.1/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/sungjin-shane/.nvm/versions/node/v9.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath_target_699051187:/mnt/c/ProgramData/Oracle/Java/javapath_target_699176125:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/sjpark1973/AppData/Roaming/nvm:/mnt/c/Users/sjpark1973/AppData/Roaming/nvm/v9.11.1:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/sjpark1973/AppData/Local/Programs/Python/Python37/Scripts:/mnt/c/Users/sjpark1973/AppData/Local/Programs/Python/Python37:/mnt/c/Users/sjpark1973/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sjpark1973/.babun:/mnt/c/Users/sjpark1973/AppData/Roaming/nvm:/mnt/c/Users/sjpark1973/AppData/Roaming/nvm/v9.11.1:/mnt/c/Users/sjpark1973/AppData/Local/GitHubDesktop/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  9.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/sungjin-shane/.cache/yarn/v4/npm-babel-plugin-transform-es2015-destructuring-6.23.0-997bb1f1ab967f682d2b0876fe358d60e765c56d/node_modules/babel-plugin-transform-es2015-destructuring/package.json' -> '/mnt/c/Users/sjpark1973/workspace/shane-idea-portfolio/node_modules/babel-plugin-transform-es2015-destructuring/package.json'
+
+npm manifest: 
+  {
+    "name": "fullstack-template-shane",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "sungjin-shane <sjpark731015@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "dev": "nodemon server --watch server & webpack --watch",
+      "start": "node server",
+      "postinstall": "webpack && knex migrate:latest"
+    },
+    "babel": {
+      "presets": [
+        "env",
+        "react"
+      ]
+    },
+    "dependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^7.1.4",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "body-parser": "^1.18.3",
+      "express": "^4.16.3",
+      "jquery": "^3.3.1",
+      "knex": "^0.14.6",
+      "nodemailer": "^4.7.0",
+      "nodemon": "^1.17.5",
+      "pg": "^7.4.3",
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1",
+      "react-leaflet": "^2.1.2",
+      "react-router-dom": "^4.3.1",
+      "superagent": "^3.8.3",
+      "webpack": "^4.12.1",
+      "webpack-cli": "^3.0.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

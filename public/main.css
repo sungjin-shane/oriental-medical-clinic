@@ -1,0 +1,45 @@
+
+/*variables & mixins*/
+@white: #FFFFFF;
+@ltGrey: #EFEFEF;
+@mdGrey: #C0C0C0;
+@dkGrey: #CCCCCC;
+@secondary:#2875C7;
+@dkSecondary: darken(@secondary,10%);
+@ltSecondary: lighten(@secondary,45%);
+@borderColor: @dkGrey;
+@background: @white;
+
+.vertical-center {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+html {
+    font-size: 72.5%;
+}
+
+body {
+    background: @ltGrey;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.portfolio-btn {
+    padding:1em;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    margin:0 auto;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
